@@ -30,11 +30,7 @@
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(
-    to right,
-    $secondary-color,
-    $trisira-colorA
-  );
+  background-image: linear-gradient(to right, $primary-color, $trisira-colorA);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;
