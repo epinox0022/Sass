@@ -58,7 +58,7 @@
 
     column-count: 2;
     column-gap: 4rem; //1em = 14px;
-    column-rule: 1px solid $color-grey-light;
+    column-rule: 1px solid $color-grey-light-2;
 
     -moz-hyphens: auto;
     -ms-hyphens: auto;
@@ -80,7 +80,7 @@
   &__close {
     &:link,
     &:visited {
-      color: $colorGrey-dark;
+      color: $color-grey-dark;
       position: absolute;
       top: 2.5rem;
       right: 2.5rem;
@@ -92,7 +92,7 @@
     }
 
     &:hover {
-      color: $primary-color;
+      color: $color-primary;
     }
   }
 }
